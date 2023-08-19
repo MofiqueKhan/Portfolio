@@ -70,7 +70,7 @@ body {
   margin-top: 20px;
   margin-left: 40px;
 }
-.button button{
+.button button {
   padding: 10px;
   border-radius: 10%;
   border: none;
@@ -80,13 +80,13 @@ body {
   background-color: rgba(92, 92, 92, 0.718);
   color: white;
 }
-.button button a{
+.button button a {
   text-decoration: none;
   color: white;
 }
-.button button:hover{
-    background-color: black;
-    transition: 0.9s ease-in-out;
+.button button:hover {
+  background-color: black;
+  transition: 0.9s ease-in-out;
 }
 .page-footer {
   background-color: black;
@@ -159,12 +159,12 @@ body {
     gap: 0px;
     margin: 100px 0 0 0;
   }
-  .button button{
+  .button button {
     padding: 10px;
     border-radius: 20%;
     font-size: 15px;
   }
-  .button button a{
+  .button button a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.776);
   }
@@ -173,5 +173,64 @@ body {
     width: 100%;
     font-size: 15px;
     text-align: center;
+  }
+}
+
+.main-matter {
+  color: white;
+  font-size: 35px;
+  margin-left: 70px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title2{
+  font-family: "Acme", sans-serif;
+}
+.information2{
+  font-family: "Preahvihear", sans-serif;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.contact-button button {
+  padding: 10px;
+  border-radius: 10%;
+  border: none;
+  font-family: "Acme", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgba(92, 92, 92, 0.718);
+  color: white;
+}
+.contact-button button a {
+  text-decoration: none;
+  color: white;
+}
+.contact-button button:hover {
+  background-color: black;
+  transition: 0.9s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .title2{
+    font-size: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "Acme", sans-serif;   
+  }
+  .information2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .contact-button{
+    margin-top: 70px;
+    margin-right: 30px;   
   }
 }
