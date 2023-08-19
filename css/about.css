@@ -1,0 +1,56 @@
+.about-content{
+    color: white;
+    margin-top: 10%;
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+
+}
+.title{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 50px;
+}
+.about-me{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 25px;
+  margin: auto;
+}
+.information{
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.Exp-section{
+  color: white;
+    margin-left: 10%;
+    height: 50%;
+    width: 50%;
+    align-items: center;  
+}
+.skills{
+  font-size: 55px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+.para-graph{
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.edu-section{
+  color: white;
+  margin-top: 5%;
+  margin-left: 45%;
+  height: 50%;
+  width: 50%;
+  align-items: center;   
+}
+.education{
+  font-size: 55px;
+  font-family: 'Bricolage Grotesque', sans-serif; 
+}
+
+.edu-para{
+  font-family: 'Preahvihear', sans-serif; 
+  padding-bottom: 10%;
+}

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,500;10..48,600&family=Preahvihear&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(https://gael7.github.io/assets/images/background1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.header {
+  margin-top: 20px;
+  background: transparent;
+}
+
+.headname {
+  font-size: 35px;
+  font-family: "Acme", sans-serif;
+  margin-left: 70px;
+}
+
+.header-link a {
+  font-size: 20px;
+  font-family: "Preahvihear", sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-right: 80px;
+}
+
+.header-link :hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  color: white;
+  margin-top: 10%;
+  margin-left: 25%;
+  height: 50%;
+  width: 50%;
+  align-items: center;
+  font-family: "Barriecito", cursive;
+}
+
+.greet {
+  font-size: 60px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.info {
+  font-size: 70px;
+  font-family: "Acme", sans-serif;
+}
+.profession {
+  font-size: 30px;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-right: 500px;
+  gap: 25px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.button button{
+  padding: 10px;
+  border-radius: 10%;
+  border: none;
+  font-family: "Acme", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgba(92, 92, 92, 0.718);
+  color: white;
+}
+.button button a{
+  text-decoration: none;
+  color: white;
+}
+.button button:hover{
+    background-color: black;
+    transition: 0.9s ease-in-out;
+}
+.page-footer {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.page-footer .footer-logo,
+.page-footer a {
+  color: white;
+  text-decoration: solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+  }
+
+  .header {
+    margin-top: 10px;
+  }
+
+  .headname {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  .header-link a {
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .header-link {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+  }
+
+  .header-link :hover {
+    text-decoration: underline;
+  }
+
+  .main-container {
+    margin: 100px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .greet {
+    font-size: 40px;
+  }
+  .info {
+    font-size: 20px;
+  }
+  .profession {
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  .button {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 0px;
+    gap: 0px;
+    margin: 100px 0 0 0;
+  }
+  .button button{
+    padding: 10px;
+    border-radius: 20%;
+    font-size: 15px;
+  }
+  .button button a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.776);
+  }
+
+  .page-footer {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+}
