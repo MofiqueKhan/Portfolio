@@ -138,17 +138,20 @@ body {
     margin: 100px 0px 0px 0px;
     height: 100%;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 0 0 0px;
   }
 
   .greet {
     font-size: 40px;
+    margin-left: 10px;
   }
   .info {
-    font-size: 20px;
+    margin-left: 10px;
+    font-size: 30px;
   }
   .profession {
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 30px;
     text-align: justify;
   }
 
@@ -182,12 +185,13 @@ body {
   margin-left: 70px;
   text-align: center;
   margin-top: 100px;
+  padding: 0 0px;
 }
 
-.title2{
+.title2 {
   font-family: "Acme", sans-serif;
 }
-.information2{
+.information2 {
   font-family: "Preahvihear", sans-serif;
 }
 .contact-button {
@@ -216,21 +220,21 @@ body {
   transition: 0.9s ease-in-out;
 }
 
-
 @media only screen and (max-width: 600px) {
-  .title2{
+  .title2 {
     font-size: 50px;
     margin-right: 50px;
     text-align: center;
-    font-family: "Acme", sans-serif;   
+    font-family: "Acme", sans-serif;
   }
-  .information2{
+  .information2 {
     font-size: 20px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 70px;
   }
-  .contact-button{
+  .contact-button {
     margin-top: 70px;
-    margin-right: 30px;   
+    margin-right: 30px;
   }
 }
