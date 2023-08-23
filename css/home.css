@@ -189,6 +189,7 @@ body {
 }
 
 .title2 {
+
   font-family: "Acme", sans-serif;
 }
 .information2 {
@@ -223,7 +224,7 @@ body {
 @media only screen and (max-width: 600px) {
   .title2 {
     font-size: 50px;
-    margin-right: 50px;
+    margin-right: 70px;
     text-align: center;
     font-family: "Acme", sans-serif;
   }
